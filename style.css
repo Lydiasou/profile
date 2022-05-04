@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+body {
+  background-color : rgb(250, 241, 230);
+  text-align: center;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+}
+
+.card-white {
+  background-color: rgb(253, 250, 246);
+  margin: 35px;
+  padding: 50px 5px 50px 5px;
+  width: 1000px;
+  box-shadow: 2px 2px 3px rgb(247, 226, 226);
+  border-radius: 30px;
+}
+
+h1, h2, h3 {
+  font-family: 'Koulen', cursive;
+  line-height: 15px;
+  font-size: 30px;
+}
+
+p, a {
+  font-family: 'Inconsolata', monospace;
+}
+
+a {
+  color: rgb(172, 125, 136);
+  text-decoration: underline;
+}
+
+a:hover {
+  background-color: rgb(222, 182, 171);
+}
+#pics {
+  /* make a square container */
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
